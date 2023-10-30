@@ -49,6 +49,21 @@
     width: 60%
 }
 
+.col40{
+    width: 40%
+}
+
+.col70{
+    width: 70%
+}
+
+.col30{
+    width: 30%
+}
+
+.padding50{
+    padding: 50px 0;
+}
 
 /*
     DEBUG
@@ -66,11 +81,10 @@
 .bot-header{
     min-height: 400px;
     background-color: rgb(0, 0, 139);
-    padding: 50px 0;
 }
 
 .nav-container{
-    width: 1200px;
+    width: 1000px;
     background-color: rgb(218, 165, 32);
     min-height: 40px;
 } 
@@ -103,7 +117,7 @@
     border-bottom: none;
 }
 
-.box{
+.box-header{
     width: 1000px;
     height: 400px;
     background-color: rgb(238, 130, 238);
@@ -112,10 +126,84 @@
 
 /* MAIN DEBUG */
 
+main > div:nth-child(2n + 2){
+    background-color: lightgray;
+}
+
+.main-box{
+    min-width: 1000px;
+    min-height: 450px;
+}
 
 
+.main-box > section{
+    border: 2px dashed black;
+}
 
+.pink{
+    background-color: pink;
+    height: 450px;
+}
+
+.blue{
+    background-color: dodgerblue;
+    height: 450px;
+}
+
+.main-box.green{
+    min-height: 900px;
+    background-color: green;
+    border: 2px dashed black;
+}
+
+
+/* FOOTER DEBUG */
+
+.top-footer{
+    background-color: rgb(35, 39, 42);
+    padding: 10px 0 30px 0;
+    border-bottom: 2px solid gray;
+} 
+
+.main-box *{
+    height: 450px;
+}
+
+
+.coral{
+    background-color: lightcoral;
+}
+    
+
+.col-footer{
+    width: 25%;
+    height: 450px;
+    border: 2px dashed white;
+    background-color: cadetblue;
+}
+
+.bot-footer{
+    background-color: rgb(35, 39, 42);
+    padding-top: 20px;
+}
+
+.nav_footer-container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 1000px;
+    height: 80px;
+    background-color: aquamarine;
+}
+
+.element-footer{
+    padding: 5px;
+    background-color: lightcoral;
+}
+
+
+/* GENERAL DEBUG */
 
 section div, section nav, section section{
     border: 2px dashed black;
 }
+
