@@ -91,35 +91,14 @@
 
 .nav-container > *{
     height: 40px;
+    border: 2px dashed black;
 }
 
-.login{
-    border-left: 2px dashed black;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
+.login, .logo{
     padding: 0 5px;
 }
 
-.logo{
-    border-right: 2px dashed black;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-    padding: 0 3px;
-
-}
-
-.link{
-    border-left: 2px dashed black;
-    border-right: 2px dashed black;
-    border-top: none;
-    border-bottom: none;
-}
-
-.box-header{
-    width: 1000px;
-    height: 400px;
+.bot-header > .main-box{
     background-color: rgb(238, 130, 238);
 }
 
@@ -129,12 +108,6 @@
 main > div:nth-child(2n + 2){
     background-color: lightgray;
 }
-
-.main-box{
-    min-width: 1000px;
-    min-height: 450px;
-}
-
 
 .main-box > section{
     border: 2px dashed black;
@@ -165,19 +138,12 @@ main > div:nth-child(2n + 2){
     border-bottom: 2px solid gray;
 } 
 
-.main-box *{
-    height: 450px;
-}
-
-
 .coral{
     background-color: lightcoral;
 }
     
-
 .col-footer{
     width: 25%;
-    height: 450px;
     border: 2px dashed white;
     background-color: cadetblue;
 }
@@ -203,7 +169,15 @@ main > div:nth-child(2n + 2){
 
 /* GENERAL DEBUG */
 
-section div, section nav, section section{
+section div, section section{
     border: 2px dashed black;
 }
 
+.main-box{
+    min-width: 1000px;
+    height: 450px;
+}
+
+.main-box *{
+    height: 100%;
+}
