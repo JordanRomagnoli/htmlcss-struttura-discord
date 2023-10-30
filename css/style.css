@@ -95,6 +95,7 @@
 
 .bot-header > .main-box{
     background-color: rgb(238, 130, 238);
+    flex-basis: 900px;
 }
 
 
@@ -104,9 +105,7 @@ main > div:nth-child(2n + 2){
     background-color: lightgray;
 }
 
-.main-box > section{
-    border: 2px dashed black;
-}
+
 
 .pink{
     background-color: pink;
@@ -173,6 +172,14 @@ section div, section section{
     height: 450px;
 }
 
-.main-box *{
+ .main-box *{
     height: 100%;
+}
+
+.main-box > section{
+    border: 2px dashed black;
+}
+
+.nav_footer-container{
+    border: 2px dashed black;
 }
